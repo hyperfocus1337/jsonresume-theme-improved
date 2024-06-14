@@ -644,6 +644,9 @@ section .location {
 }
 
 @media print {
+  a[href]:after {
+    content: none !important;
+  }
   #resume {
     margin: 0.1em;
     padding: 0.1em;
